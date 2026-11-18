@@ -52,7 +52,7 @@ Le projet est réalisé *from scratch*, avec une attention particulière portée
 | Frontend | HTML5 sémantique, TypeScript |
 | Styles | CSS et framework utilitaire maison (mini-Tailwind) |
 | Backend | Node.js natif avec TypeScript **ou** Java Spring Boot, selon le choix de l'équipe |
-| Persistance | PostgreSQL ; MongoDB et Redis selon les besoins |
+| Persistance | PostgreSQL |
 | API | REST, échanges JSON |
 | Conception | Merise (MCD, MLD, MPD), UML |
 | Maquettage | Figma |
