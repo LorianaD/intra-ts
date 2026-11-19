@@ -1,31 +1,46 @@
 :root {
-    --color-primary: #0070E0;
-    --color-secondary: #FF7A45;
+  /* Colors */
+  --color-primary: #0070E0;
+  --color-secondary: #FF7A45;
+  --color-background: #F5F7FB;
+  --color-surface: #FFFFFF;
+  --color-border: #E4E7EE;
 
-    --color-background: #F5F7FB;
-    --color-surface: #FFFFFF;
+  --color-text-primary: #111827;
+  --color-text-muted: #6B7280;
 
-    --color-border: #E4E7EE;
+  --color-success: #12A150;
+  --color-danger: #E5484D;
+  --color-warning: #F5A524;
 
-    --color-text-primary: #111827;
-    --color-text-muted: #6B7280;
+  /* Spacing - 4px scale */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.25rem;
+  --space-6: 1.5rem;
+  --space-7: 3rem;
+  --space-8: 4rem;
 
-    --color-success: #12A150;
-    --color-danger: #E5484D;
-    --color-warning:#F5A524;
+  /* Border radius */
+  --radius-sm: 0.5rem;
+  --radius-md: 0.75rem;
+  --radius-full: 9999px;
 
-    .theme-dark {
-        --color-background: #0E1220;
-        --color-surface: #171C2E;
+  /* Shadows */
+  --shadow-md: 0 4px 12px rgb(17 24 39 / 8%);
 
-        --color-border: #2A3148;
-
-        --color-text-primary: #F3F5FA;
-        --color-text-muted: #9AA3B8;
-
-        --color-primary: #3D9BFF;
-    }
+  /* Typography */
+  --font-family: "Inter", Arial, sans-serif;
 }
 
+:root.theme-dark {
+  --color-background: #0E1220;
+  --color-surface: #171C2E;
+  --color-border: #2A3148;
 
-
+  --color-text-primary: #F3F5FA;
+  --color-text-muted: #9AA3B8;
+  --color-primary: #3D9BFF;
+}
